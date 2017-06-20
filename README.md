@@ -218,6 +218,7 @@ The options and the block are optional.
      | :file_encoding              |   utf-8  | Set the file encoding eg.: 'windows-1252' or 'iso-8859-1'                            |
      | :force_simple_split         |   false  | force simiple splitting on :col_sep character for non-standard CSV-files.            |
      |                             |          | e.g. when :quote_char is not properly escaped                                        |
+     |                             |          | Note: If you have invalid/missing quoting, you can additionally set quote_char: ''   |                                        |
      | :verbose                    |   false  | print out line number while processing (to track down problems in input files)       |
 
 
